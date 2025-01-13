@@ -132,17 +132,17 @@ TODO: Update list of researchers
 ## OOD Detection
 
 (NeurIPS 2024) [Revisiting Score Propagation in Graph Out-of-Distribution Detection]() by Ma et al.
-
+- 0图网络相关
 (NeurIPS 2024) [Human-Assisted Out-of-Distribution Generalization and Detection]() by Bai et al.
-
+- 0人类手工标注
 (NeurIPS 2024) [Long-Tailed Out-of-Distribution Detection via Normalized Outlier Distribution Adaptation]() by Miao et al.
-
+- 0伪OOD数据集具有长尾分布，与真实OOD分布不同，提出调整方法
 (NeurIPS 2024) [Trajectory Volatility for Out-of-Distribution Detection in Mathematical Reasoning]() by Wang et al.
-
+- 基于轨迹的方法 TV score，利用轨迹波动性进行数学推理中的 OOD 检测
 (NeurIPS 2024) [Rethinking Out-of-Distribution Detection on Imbalanced Data Distribution]() by Liu et al.
-
+- 提出一种统一的训练时正则化技术，研究在不平衡数据分布下的OOD检测
 (NeurIPS 2024) [Learning to Shape In-distribution Feature Space for Out-of-distribution Detection]() by Zhang et al.
-
+- 改进之前对ID特征空间分布的强假设，提出仅对ID类条件分布进行假设，而后进行加权聚合
 (NeurIPS 2024) [Self-Calibrated Tuning of Vision-Language Models for Out-of-Distribution Detection]() by Yu et al.
 
 (NeurIPS 2024) [FOOGD: Federated Collaboration for Both Out-of-distribution Generalization and Detection]() by Liao et al.
