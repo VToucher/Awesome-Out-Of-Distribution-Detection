@@ -138,85 +138,85 @@ TODO: Update list of researchers
 (NeurIPS 2024) [Long-Tailed Out-of-Distribution Detection via Normalized Outlier Distribution Adaptation]() by Miao et al.
 - 0伪OOD数据集具有长尾分布，与真实OOD分布不同，提出调整方法
 (NeurIPS 2024) [Trajectory Volatility for Out-of-Distribution Detection in Mathematical Reasoning]() by Wang et al.
-- 基于轨迹的方法 TV score，利用轨迹波动性进行数学推理中的 OOD 检测
+- 1基于轨迹的方法 TV score，利用轨迹波动性进行数学推理中的 OOD 检测
 (NeurIPS 2024) [Rethinking Out-of-Distribution Detection on Imbalanced Data Distribution]() by Liu et al.
-- 提出一种统一的训练时正则化技术，研究在不平衡数据分布下的OOD检测
+- 0提出一种统一的训练时正则化技术，研究在不平衡数据分布下的OOD检测
 (NeurIPS 2024) [Learning to Shape In-distribution Feature Space for Out-of-distribution Detection]() by Zhang et al.
-- 改进之前对ID特征空间分布的强假设，提出仅对ID类条件分布进行假设，而后进行加权聚合
+- 0改进之前对ID特征空间分布的强假设，提出仅对ID类条件分布进行假设，而后进行加权聚合
 (NeurIPS 2024) [Self-Calibrated Tuning of Vision-Language Models for Out-of-Distribution Detection]() by Yu et al.
-
+- 1根据样本的置信度，调整ID分类和OOD正则两项目标的侧重
 (NeurIPS 2024) [FOOGD: Federated Collaboration for Both Out-of-distribution Generalization and Detection]() by Liao et al.
-
+- 0联邦学习设定下的OOD检测
 (NeurIPS 2024) [Diffusion-based Layer-wise Semantic Reconstruction for Unsupervised Out-of-Distribution Detection]() by Yang et al.
-
+- 1
 (NeurIPS 2024) [Out-of-Distribution Detection with a Single Unconditional Diffusion Model]() by Heng et al.
-
+- 1
 (NeurIPS 2024) [Expecting The Unexpected: Towards Broad Out-Of-Distribution Detection]() by Guille-Escuret et al.
-
+- 0 提出5类OOD偏移
 (NeurIPS 2024) [Kernel PCA for Out-of-Distribution Detection]() by Fang et al.
-
+- 0 直接使用PCA的线性自空间无法分离ID/OOD，提出非线性核函数解决
 (NeurIPS 2024) [SeTAR: Out-of-Distribution Detection with Selective Low-Rank Approximation]() by Li et al.
-
+- 1
 (NeurIPS 2024) [Rethinking the Evaluation of Out-of-Distribution Detection: A Sorites Paradox]() by Long et al.
-
+- 111 数据集，具有语义偏移程度标签
 (NeurIPS 2024) [Energy-based Hopfield Boosting for Out-of-Distribution Detection]() by Hofmann et al.
-
+- 1
 (NeurIPS 2024) [The Best of Both Worlds: On the Dilemma of Out-of-distribution Detection]() by Zhang et al.
-
+- 0
 (NeurIPS 2024) [Out-Of-Distribution Detection with Diversification (Provably)]() by Yao et al.
-
+- 0 多样化辅助异常样本，可提高性能
 (NeurIPS 2024) [Hyper-opinion Evidential Deep Learning for Out-of-Distribution Detection]() by Qu et al.
-
+- 0
 (NeurIPS 2024) [MultiOOD: Scaling Out-of-Distribution Detection for Multiple Modalities](https://arxiv.org/pdf/2405.17419) [Code](https://github.com/donghao51/MultiOOD) by Dong et al.
-
+- 0 首个多模态 OOD 检测基准，可提升现有单模态算法
 (ECCV 2024) [GalLoP: Learning Global and Local Prompts for Vision-Language Models](https://arxiv.org/pdf/2407.01400) by Lafon et al.
-
+- 1
 (ECCV 2024) [Gradient-Regularized Out-of-Distribution Detection](https://arxiv.org/pdf/2404.12368) by Sharifi, Entesari, and Safaei et al.
-
+- 1
 (AISTATS 2024) [Taming False Positives in Out-of-Distribution Detection with Human Feedback](https://arxiv.org/pdf/2404.16954) [[Code]](https://github.com/2454511550Lin/TameFalsePositives-OOD) by Vishwakarma et al.
-
+- 0提出一个有数学基础的 OOD 检测框架，利用专家反馈动态 “安全” 更新阈值
 (ICML 2024) [OODRobustBench: a Benchmark and Large-Scale Analysis of Adversarial Robustness under Distribution Shift](https://openreview.net/pdf?id=kAFevjEYsz) [[Code]](https://github.com/OODRobustBench/OODRobustBench) by Li et al.
-
+- 0 23 种数据集层面的偏移， 6 种威胁层面的偏移
 (ICML 2024) [A Geometric Explanation of the Likelihood OOD Detection Paradox](https://openreview.net/pdf?id=EVMzCKLpdD) [[Code]](https://github.com/layer6ai-labs/dgm_ood_detection) by Kamkari et al.
-
+- 0高似然区域若包含极小概率质量则不会被生成，低维流形的数据周围可能出现密度大但概率质量低的矛盾情况
 (ICML 2024) [ODIM: Outlier Detection via Likelihood of Under-Fitted Generative Models](https://openreview.net/pdf?id=R8nbccD7kv) [[Code]](https://github.com/jshwang0311/ODIM) by Kim and Hwang et al.
-
+- 0
 (ICML 2024) [A Provable Decision Rule for Out-of-Distribution Detection](https://openreview.net/pdf?id=SPygKwms0X) by Ma et al.
-
+- 0
 (ICML 2024) [When and How Does In-Distribution Label Help Out-of-Distribution Detection?](https://openreview.net/pdf?id=knhbhDLdry) [[Code]](https://github.com/deeplearning-wisc/id_label) by Du et al.
-
+- 谱分解方法，建立可证明的误差界
 (ICML 2024) [Graph Out-of-Distribution Detection Goes Neighborhood Shaping](https://openreview.net/pdf?id=pmcusTywXO) by Bao et al.
-
+- 0
 (ICML 2024) [Out-of-Distribution Detection via Deep Multi-Comprehension Ensemble](https://openreview.net/pdf?id=HusShERjlc) by Xu et al.
-
+- 模型集成
 (ICML 2024) [Bounded and Uniform Energy-based Out-of-distribution Detection for Graphs](https://openreview.net/pdf?id=mjh7AOWozN) [[Code]](https://github.com/ShenzhiYang2000/NODESAFE-Bounded-and-Uniform-Energy-based-Out-of-distribution-Detection-for-Graphs) by Yang et al.
-
+- 图网络
 (ICML 2024) [Fast Decision Boundary based Out-of-Distribution Detector]() [[Code]](https://github.com/litianliu/fDBD-OOD) by Liu et al.
-
+- 0
 (ICML 2024) [DeCoOp: Robust Prompt Tuning with Out-of-Distribution Detection](https://openreview.net/pdf?id=MoTUdh9ZCc) [[Code]](https://github.com/WNJXYK/DeCoOp) by Zhou et al.
-
+- 探索开放世界PT，将分布外检测纳入PT，引入新类检测器和子分类器
 (ICML 2024) [Envisioning Outlier Exposure by Large Language Models for Out-of-Distribution Detection](https://openreview.net/pdf?id=xZO7SmM12y) [[Code]](https://github.com/tmlr-group/EOE) by Cao et al.
-
+- 1 利用LLM设想潜在的异常值暴露
 (ICML 2024) [Prometheus: Out-of-distribution Fluid Dynamics Modeling with Disentangled Graph ODE](https://openreview.net/pdf?id=JsPvL6ExK8) by Wu et al.
-
+- 0
 (ICML 2024) [Optimal Ridge Regularization for Out-of-Distribution Prediction](https://openreview.net/pdf?id=bvPYroQgc3) [[Code]](https://github.com/jaydu1/ood-ridge) by Patil et al.
-
+- 0正则化理论
 (CVPR 2024) [Long-Tailed Anomaly Detection with Learnable Class Names](https://openaccess.thecvf.com/content/CVPR2024/papers/Ho_Long-Tailed_Anomaly_Detection_with_Learnable_Class_Names_CVPR_2024_paper.pdf) by Ho et al.
-
+- 0长尾分布异常检测，基于重建
 (CVPR 2024) [Enhancing the Power of OOD Detection via Sample-Aware Model Selection](https://openaccess.thecvf.com/content/CVPR2024/papers/Xue_Enhancing_the_Power_of_OOD_Detection_via_Sample-Aware_Model_Selection_CVPR_2024_paper.pdf) by Xue et al.
-
+- 0
 (CVPR 2024) [Test-Time Linear Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2024/papers/Fan_Test-Time_Linear_Out-of-Distribution_Detection_CVPR_2024_paper.pdf) [[Code]](https://github.com/kfan21/RTL) by Fan et al.
-
+- 0
 (CVPR 2024) [ID-like Prompt Learning for Few-Shot Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2024/papers/Bai_ID-like_Prompt_Learning_for_Few-Shot_Out-of-Distribution_Detection_CVPR_2024_paper.pdf) [[Code]](https://github.com/ycfate/ID-like) by Bai et al.
-
+- 1 
 (CVPR 2024) [YolOOD: Utilizing Object Detection Concepts for Multi-Label Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2024/papers/Zolfi_YolOOD_Utilizing_Object_Detection_Concepts_for_Multi-Label_Out-of-Distribution_Detection_CVPR_2024_paper.pdf) [[Code]](https://github.com/AlonZolfi/YolOOD) by Zolfi et al.
-
+- 1
 (CVPR 2024) [Learning Transferable Negative Prompts for Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Learning_Transferable_Negative_Prompts_for_Out-of-Distribution_Detection_CVPR_2024_paper.pdf) [[Code]](https://github.com/mala-lab/negprompt) by Li et al.
-
+- 1
 (CVPR 2024) [A Noisy Elephant in the Room: Is Your Out-of-Distribution Detector Robust to Label Noise?](https://openaccess.thecvf.com/content/CVPR2024/papers/Humblot-Renaux_A_Noisy_Elephant_in_the_Room_Is_Your_Out-of-Distribution_Detector_CVPR_2024_paper.pdf) [[Code]](https://github.com/glhr/ood-labelnoise) by Humblot-Renaux et al.
-
+- 0 解决错误分类的 ID 样本和 OOD 样本之间分离不佳
 (CVPR 2024) [Discriminability-Driven Channel Selection for Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_Discriminability-Driven_Channel_Selection_for_Out-of-Distribution_Detection_CVPR_2024_paper.pdf) by Yuan et al.
-
+- 
 (CVPR 2024) [CORES: Convolutional Response-based Score for Out-of-distribution Detection](https://openaccess.thecvf.com/content/CVPR2024/papers/Tang_CORES_Convolutional_Response-based_Score_for_Out-of-distribution_Detection_CVPR_2024_paper.pdf) by Tang and Hou et al.
 
 (ICLR 2024 Reject) [Detecting Out-Of-Distribution Samples Via Conditional Distribution Entropy With Optimal Transport](https://openreview.net/pdf?id=YnaGcMJQ0M) by Feng et al.
