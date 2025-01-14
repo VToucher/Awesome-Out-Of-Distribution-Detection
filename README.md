@@ -216,69 +216,69 @@ TODO: Update list of researchers
 (CVPR 2024) [A Noisy Elephant in the Room: Is Your Out-of-Distribution Detector Robust to Label Noise?](https://openaccess.thecvf.com/content/CVPR2024/papers/Humblot-Renaux_A_Noisy_Elephant_in_the_Room_Is_Your_Out-of-Distribution_Detector_CVPR_2024_paper.pdf) [[Code]](https://github.com/glhr/ood-labelnoise) by Humblot-Renaux et al.
 - 0 解决错误分类的 ID 样本和 OOD 样本之间分离不佳
 (CVPR 2024) [Discriminability-Driven Channel Selection for Out-of-Distribution Detection](https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_Discriminability-Driven_Channel_Selection_for_Out-of-Distribution_Detection_CVPR_2024_paper.pdf) by Yuan et al.
-- 
+- 0
 (CVPR 2024) [CORES: Convolutional Response-based Score for Out-of-distribution Detection](https://openaccess.thecvf.com/content/CVPR2024/papers/Tang_CORES_Convolutional_Response-based_Score_for_Out-of-distribution_Detection_CVPR_2024_paper.pdf) by Tang and Hou et al.
-
+- 0 卷积核响应
 (ICLR 2024 Reject) [Detecting Out-Of-Distribution Samples Via Conditional Distribution Entropy With Optimal Transport](https://openreview.net/pdf?id=YnaGcMJQ0M) by Feng et al.
-
+- 0
 (ICLR 2024) [CONJNORM: Tractable Density Estimation for Out-of-distribution Detection](https://arxiv.org/pdf/2402.17888.pdf) by Peng and Luo et al.
-
+- 1
 (ICLR 2024) [Learning With Mixture Of Prototypes For Out-Of-Distribution Detection](https://openreview.net/pdf?id=uNkKaD3MCs) by Lu et al.
-
+- 0
 (ICLR 2024) [How Does Unlabled Data Provably Help Out-Of-Distribution Detection?](https://openreview.net/pdf?id=jlEjB8MVGa) [[Code]](https://github.com/deeplearning-wisc/sal) by Du and Fang et al.
-
+- 0
 (ICLR 2024) [HYPO: Hyperspherical Out-Of-Distribution Generalization](https://openreview.net/pdf?id=VXak3CZZGC) [[Code]](https://github.com/deeplearning-wisc/hypo) by Bai and Ming et al.
-
+- 0 超球OOD泛化
 (ICLR 2024) [ImageNet-OOD: Deciphering Modern Out-Of-Distribution Detection Algorithms](https://openreview.net/pdf?id=VTYg5ykEGS) by Yang and Zhang et al.
-
+- 1 纯净语义偏移的数据集
 (ICLR 2024) [Towards Optimal Feature-Shaping Methods For Out-Of-Distribution Detection](https://openreview.net/pdf?id=dm8e7gsH0d) by Zhao et al.
-
+- 0 特征shaping方法
 (ICLR 2024) [Out-Of-Distribution Detection With Negative Prompts](https://openreview.net/pdf?id=nanyAujl6e) by Nie et al.
-
+- 1
 (ICLR 2024) [DOS: Diverse Outlier Sampling For Out-Of-Distribution Detection](https://openreview.net/pdf?id=iriEqxFB4y) by Jiang et al.
-
+- 0 通过测量到每个聚类原型的距离将异常值划分为不同的聚类，从多个不同区域选择最具信息量的异常值
 (ICLR 2024) [NECO: Neural Collapse Based Out-Of-Distribution Detection](https://openreview.net/pdf?id=9ROuKblmi7) [[Code]](https://gitlab.com/drti/neco) by Ammar et al.
-
+- 0
 (ICLR 2024) [Plugin Estimators For Selective Classification With Out-Of-Distribution Detection](https://openreview.net/pdf?id=DASh78rJ7g) by Narasimhan et al.
-
+- 0 选择性分类
 (ICLR 2024) [Image Background Servers As Good Proxy For Out-Of-Distribution Data](https://openreview.net/pdf?id=ym0ubZrsmm) by Sen Pei
-
+- 0
 (ICLR 2024) [Out-Of-Distribution Detection By Leveraging Between-Layer Transformation Smoothness](https://openreview.net/pdf?id=AcRfzLS6se) by Jelenić et al.
-
+- 1
 (ICLR 2024) [Scaling For Training-Time and Posthoc Out-Of-Distribution Detection Enhancement](https://openreview.net/pdf?id=RDSTjtnqCg) by Xu et al.
-
+- 0 激活剪枝会对 OOD 检测产生不利影响，而激活缩放则能增强检测效果
 (ICLR 2024) [Neuron Activation Coverage: Rethinking Out-Of-Distribution Detection and Generalization](https://openreview.net/pdf?id=SNGXbZtK6Q) by Liu et al.
-
+- 0
 (AAAI 2024) [How To Overcome Curse-of-Dimensionality for Out-of-distribution Detection?](https://arxiv.org/pdf/2312.14452v1.pdf) by Ghosal and Sun et al.
-
+- 1 子空间距离度量
 (NeurIPS 2023) [GradOrth: A Simple Yet Efficient Out-of-distribution Detection with Orthogonal Projection of Gradients](https://proceedings.neurips.cc/paper_files/paper/2023/file/77cf940349218069bbc230fc2c9c8a21-Paper-Conference.pdf) by Behypour et al.
-
+- 1
 (NeurIPS 2023) [Characterizing Out-of-distribution Error via Optimal Transport](https://proceedings.neurips.cc/paper_files/paper/2023/file/38fd51cf36f28566230a93a5fbeaabbf-Paper-Conference.pdf) [[Code]](https://github.com/luyuzhe111/COT) by Lu and Qin et al.
-
+- 0
 (NeurIPS 2023) [On the Importancce of Feature Separability in Predicting Out-of-distribution Error](https://proceedings.neurips.cc/paper_files/paper/2023/file/585e9cf25585612ac27b535457116513-Paper-Conference.pdf) by Xie et al.
-
+- 0
 (NeurIPS 2023) [ATTA: Anomaly-aware Test-Time Adaptation for Out-of-distribution Detection in Segmentation](https://proceedings.neurips.cc/paper_files/paper/2023/file/8dcc306a2522c60a78f047ab8739e631-Paper-Conference.pdf) [[Code]](https://github.com/gaozhitong/ATTA) by Gao et al.
-
+- 0 分层解决域偏移问题
 (NeurIPS 2023) [Diversified Outlier Exposure for Out-of-distribution Detection via Informative Extrapolation](https://proceedings.neurips.cc/paper_files/paper/2023/file/46d943bc6a15a57c923829efc0db7c7a-Paper-Conference.pdf) [[Code]](https://github.com/tmlr-group/DivOE) by Zhu et al.
-
+- 1
 (NeurIPS 2023) [Optimal Parameter and Neuron Pruning for Out-of-distribution Detection](https://proceedings.neurips.cc/paper_files/paper/2023/file/a4316bb210a59fb7aafeca5dd21c2703-Paper-Conference.pdf) by Chen et al.
-
+- 0 最优参数和神经元剪枝（OPNP）方法
 (NeurIPS 2023) [VRA: Variational Rectified Activation for Out-of-distribution Detection](https://proceedings.neurips.cc/paper_files/paper/2023/file/5c20c00504e0c049ec2370d0cceaf3c4-Paper-Conference.pdf) by Chen and Li et al.
-
+- 0 变分整流激活
 (NeurIPS 2023) [GAIA: Delving into Gradient-based Attribution Abnormality for Out-of-distribution Detection](https://proceedings.neurips.cc/paper_files/paper/2023/file/fcdccd419c4dc471fa3b73ec97b53789-Paper-Conference.pdf) [[Code]](https://github.com/zeroQiaoba/VRA) by Xu et al.
-
+- 0 整合了梯度异常检查和聚合
 (NeurIPS 2023) [CADet: Fully Self-supervised Anomaly Detection With Contrastive Learning](https://proceedings.neurips.cc/paper_files/paper/2023/file/1700ad4e6252e8f2955909f96367b34d-Paper-Conference.pdf) [[Code]](https://github.com/charlesGE/OpenOOD-CADet) by Guille-Escuret et al.
-
+- 0 对比学习异常检测
 (NeurIPS 2023) [RoboDepth: Robust Out-of-distribution Depth Estimation Under Corruptions](https://proceedings.neurips.cc/paper_files/paper/2023/file/43119db5d59f07cc08fca7ba6820179a-Paper-Datasets_and_Benchmarks.pdf) by Kong et al.
-
+- 1 自动驾驶
 (NeurIPS 2023) [Diversify & Conquer: Outcome-directed Curriculum RL via Out-of-distribution Disagreement](https://proceedings.neurips.cc/paper_files/paper/2023/file/a815fe7cad6af20a6c118f2072a881d2-Paper-Conference.pdf) by Cho et al.
-
+- 0 强化学习，智能体在缺乏环境特征或外部奖励等领域知识时进行探索
 (NeurIPS 2023) [LoCoOp: Few-Shot Out-of-distribution Detection via Prompt Learning](https://proceedings.neurips.cc/paper_files/paper/2023/file/f0606b882692637835e8ac981089eccd-Paper-Conference.pdf) [[Code]](https://github.com/AtsuMiyai/LoCoOp) by Miyai et al.
-
+- 1
 (NeurIPS 2023) [Category-Extensible Out-of-distribution Detection via Hierarchical Context Descriptions](https://proceedings.neurips.cc/paper_files/paper/2023/file/695b6f9490d27d852e439e35c56e73e3-Paper-Conference.pdf) by Liu et al.
-
+- 0 感知上下文和虚假上下文，感知上下文用于感知当前分类任务中类别间的差异（如猫和苹果），虚假上下文进一步识别每个类别中相似但并非同类的 OOD 样本（如猫和黑豹、苹果和桃子）
 (NeurIPS 2023) [Out-of-distribution Detection Learning With Unreliable Out-of-distribution Sources](https://proceedings.neurips.cc/paper_files/paper/2023/file/e43f900f571de6c96a70d5724a0fb565-Paper-Conference.pdf) [[Code]](https://github.com/tmlr-group/ATOL) by Zheng and Wang et al.
-
+- 0
 (NeurIPS 2023) [Dream the Impossible: Outlier Imagination with Diffusion Models](https://arxiv.org/pdf/2309.13415.pdf) by Du et al.
 
 (NeurIPS 2023) [Learning To Augment Distributions For Out-of-distribution Detection](https://proceedings.neurips.cc/paper_files/paper/2023/file/e812af67a942c21dd0104bd929f99da1-Paper-Conference.pdf) [[Code]](https://github.com/tmlr-group/DAL) by Wang et al.
@@ -288,7 +288,7 @@ TODO: Update list of researchers
 (ICCV 2023) [Nearest Neighbor Guidance for Out-of-Distribution Detection](https://openaccess.thecvf.com/content/ICCV2023/papers/Park_Nearest_Neighbor_Guidance_for_Out-of-Distribution_Detection_ICCV_2023_paper.pdf) [[Code]](https://github.com/roomo7time/nnguide) by Park et al.
 
 (ICCV 2023) [DIFFGUARD: Semantic Mismatch-Guided Out-of-Distribution Detection using Pre-trained Diffusion Models](https://openaccess.thecvf.com/content/ICCV2023/papers/Gao_DIFFGUARD_Semantic_Mismatch-Guided_Out-of-Distribution_Detection_Using_Pre-Trained_Diffusion_Models_ICCV_2023_paper.pdf) [[Code]](https://github.com/cure-lab/DiffGuard) by Gao et al.
-
+- 1
 (ICCV 2023) [Understanding the Feature Norm for Out-of-Distribution Detection](https://openaccess.thecvf.com/content/ICCV2023/papers/Park_Understanding_the_Feature_Norm_for_Out-of-Distribution_Detection_ICCV_2023_paper.pdf) by Park et al.
 
 (ICCV 2023) [SAFE: Sensitivity-Aware Features for Out-of-Distribution Object Detection](https://openaccess.thecvf.com/content/ICCV2023/papers/Wilson_SAFE_Sensitivity-Aware_Features_for_Out-of-Distribution_Object_Detection_ICCV_2023_paper.pdf) [[Code]](https://github.com/SamWilso/SAFE_Official) by Wilson et al.
